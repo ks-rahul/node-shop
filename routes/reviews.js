@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router({ mergeParams: true });
 
-/* GET review. */
+/* review routes */
 router.get("/", (req, res, next) => {
   res.send("Surf Shop - Review");
 });

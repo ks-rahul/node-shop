@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-/* GET post page. */
+/* posts routes. */
 router.get("/", (req, res, next) => {
   res.send("Surf Shop - Post");
 });
